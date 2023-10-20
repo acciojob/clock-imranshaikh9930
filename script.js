@@ -10,7 +10,7 @@ const options = {
   hour: '2-digit',
   minute: '2-digit',
   second: '2-digit',
-  hour12: true, // Use 24-hour format
+  hour12: true, 
 };
 
 const formattedDate = newDate.toLocaleString(undefined, options);
